@@ -38,7 +38,9 @@ Once the operator dismisses the drone via smartphone, it retraces its flightpath
 The drone will also return to home when a low battery signal is received.
 
 https://dronekit.io/
+
 https://mavlink.io/en/
+
 https://fast-dds.docs.eprosima.com/en/v1.7.0/
 
 https://github.com/DrD3v/overwatch-drone/assets/48776257/871ed650-9fe9-4389-a130-46e5b1925e84
@@ -52,5 +54,7 @@ Collision avoidance has to be implemented that detects obstacles JIT as well as 
 Camera based object tracking has to be implemented which takes over from GPS based tracking once the operator has been located.
 Data captured by the drone, such as the video stream and GPS data, have to be stored externally to be available for review.
 
-While this ambitious project was started with good intentions such as increased personal security, it is very unlikely to move past its current stage in the near future. Strict regulations on drones (especially with autonomous capabilities) make it practicall
+While this ambitious project was started with good intentions such as increased personal security, it is very unlikely to move past its current stage in the near future. Strict regulations on drones (especially with autonomous capabilities) make it practically impossible to use an Overwatch drone outside of private land.
+
+Please note that key parts of the code that have not been made public by the Client are omitted from this repository.
 
